@@ -1,0 +1,112 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-left li {
+    margin-right: 20px; /* Espacio entre el icono y el texto */
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-right li {
+    margin-left: 20px; /* Espacio entre los enlaces */
+}
+
+.nav-right a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px; /* Tamaño de la fuente del menú */
+}
+
+.icono-home {
+    width: 180px; /* Tamaño del icono */
+    height: auto;
+    margin-right: 10px; /* Espacio entre el icono y el borde del li */
+}
+
+/* Estilos para la tabla */
+.table-container {
+    text-align: center;
+    flex: 1; /* Hace que el contenedor de la tabla tome el espacio disponible */
+}
+
+table {
+    width: 98%;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    /*text-align: center;*/
+}
+
+table th {
+    background-color: #148BD1;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table .icon-cell {
+    background-color: transparent;
+    color: inherit;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #CEEFF9;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+
+
+
+
+				
+			 
+
+

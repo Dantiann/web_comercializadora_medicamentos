@@ -1,0 +1,113 @@
+/* Estilos CSS que se integrarán */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-image: url('../imgs/fondo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(0.9) contrast(1.1);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.formulario h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-contenedor {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-contenedor input,
+.input-contenedor select {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px 0;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.input-contenedor label {
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .6s;
+}
+
+.input-contenedor input:focus ~ label,
+.input-contenedor input:valid ~ label,
+.input-contenedor select:focus ~ label,
+.input-contenedor select:valid ~ label {
+    top: -20px;
+}
+
+button {
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    transition: .4s;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+.registrar {
+    font-size: .8rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registrar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.registrar a:hover {
+    text-decoration: underline;
+}

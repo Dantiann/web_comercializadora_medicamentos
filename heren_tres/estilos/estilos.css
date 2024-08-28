@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.formulario_registro
+{
+	width: 400px;
+	background-color:#24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 70px;
+	border-radius: 4px;
+	font-family: calibri;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.formulario_registro h4{
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+
+.controles
+{
+	width: 100%;
+	background-color: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: calibri;
+	font-size: 18px;
+	color: white;
+}
+.formulario_registro .botones
+{
+	width: 100%;
+	background-color: #1f53c5;
+	border-radius: none;
+	padding: 12px;
+	color: #FDFEFE;
+	margin: 16px 0;
+	font-size: 16px;
+
+}
+
+.formulario_registro .mixto
+{
+	width: 40%;
+	background-color: #1f53c5;
+	border-radius: none;
+	padding: 12px;
+	color: #FDFEFE;
+	margin-left: 20px;
+	margin-right: 10px;
+	font-size: 13px;
+	margin:  auto;
+
+}
+
+/* Estilos para todos los botones */
+.botones {
+    display: block; /* Mostrar como bloque para controlar el ancho y alineación */
+    margin: 0 auto;  /* Centrar horizontalmente */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #1f53c5; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Quitar borde */
+    cursor: pointer; /* Cursor tipo pointer */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo cuando se pasa el mouse */
+.botones:hover {
+    background-color: #163d97; /* Color de fondo al pasar el mouse */
+}
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+       
+        .form-container {
+            background-color: rgb(7, 7, 24); 
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            display: inline-block;
+            max-width: 300px;
+        }
+        
+        h2 {
+            font-size: 16px; 
+            color:aliceblue;
+        }
+
+        .btn-submit
+        {
+            background-color: blue;
+            border: 2px solid white;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+           
+    </style>
+</head>
+<body>
+    <br />
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-container">
+                    <h2>Formulario Adición Datos Usuario</h2>
+                    <div class="row">
+                        <div class="col-md-9 mb-3">
+                            <input type="text" id="id_Usuario" name="id_Usuario" placeholder="Nro de Identidad">
+                        </div>    
+                        <div class="col-md-9 mb-3">
+                            <input type="text" id="nombre_Usuario" name="nombre_Usuario" placeholder="Nombres Completos">
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <input type="text" id="apellido_Usuario" name="apellido_Usuario" placeholder="Apellidos Completos">
+                        </div>    
+                        <div class="col-md-9 mb-3">    
+                            <input type="tel" id="tel_Usuario" name="tel_Usuario" placeholder="Teléfono">
+                        </div>    
+                        <div class="col-md-9 mb-3">
+                            <input type="email" id="dir_Usuario" name="dir_Usuario" placeholder="Correo Usuario">
+                        </div>    
+                        <div class="col-md-9 mb-3">
+                            <input type="password" id="clave_Usuario" name="clave_Usuario" placeholder="Clave">
+                        </div>    
+                        <div class="col-md-9 mb-3">
+                            <select id="tipo_Usuario" name="tipo_Usuario">
+                                <option value="administrador">Administrador</option>
+                                <option value="usuario">Usuario</option>
+                            </select>
+                        </div>        
+                        <div class="col-md-9 mb-3">
+                            <input type="date" id="fecha_Ingreso" name="fecha_Ingreso">
+                        </div>    
+                        <div class="col-md-9 mb-3">
+                            <select id="estado_Usuario" name="estado_Usuario">
+                                <option value="afiliado">Afiliado</option>
+                                <option value="desafiliado">Desafiliado</option>
+                            </select>
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <button type="submit" name="Adicionar" id="Adicionar" class="btn-submit">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

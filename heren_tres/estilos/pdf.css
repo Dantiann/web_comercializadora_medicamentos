@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+    font-size: 8pt; /* Tamaño de fuente */
+}
+
+/* Estilos específicos para la página de visualización de orden de compra */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir envolver en dos columnas */
+    justify-content: space-between; /* Espacio entre columnas */
+    align-items: flex-start; /* Alinear elementos al inicio */
+    margin: 20px;
+    width: 100%;
+}
+
+.container > div {
+    width: 48%; /* Ancho de cada columna */
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 14pt; /* Tamaño de fuente más grande para el título */
+    margin-bottom: 10pt; /* Espacio inferior */
+}
+
+.order-details {
+    display: flex;
+    flex-wrap: wrap; /* Permitir envolver en dos columnas */
+    justify-content: space-between; /* Espacio entre columnas */
+    width: 100%;
+    border: 1px solid #000; /* Borde negro */
+    border-radius: 5px;
+    padding: 10pt;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10pt;
+    background-color: #fff; /* Fondo blanco */
+}
+
+.order-details div {
+    width: 48%; /* Ancho de cada columna */
+}
+
+.order-details h2 {
+    font-size: 10pt; /* Tamaño de fuente para subtítulos */
+    margin-bottom: 5pt;
+}
+
+.table-container {
+    width: 100%;
+    margin-bottom: 10pt;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 5pt;
+    border: 1px solid #000; /* Borde negro */
+    font-size: 8pt; /* Tamaño de fuente */
+}
+
+table th {
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+    font-weight: bold;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo gris claro para filas pares */
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center-align {
+    text-align: center;
+}
+
+/* Estilos para elementos que deben ocultarse en el PDF */
+.pagination,
+.icon-back
+ {
+    display: none;
+}
+
+.icono-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.icono-home h1 {
+    margin: 0;
+    color: #148BD1;
+}
+
+.icono-home img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+

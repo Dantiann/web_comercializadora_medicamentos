@@ -1,0 +1,155 @@
+ /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos específicos para la página de visualización de orden de compra */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.order-details {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.order-details div {
+    width: 45%;
+}
+
+.order-details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #148BD1;
+}
+
+.table-container {
+    width: 98%;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #148BD1;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.pagination {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #000 !important;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}
+
+.pagination .disabled {
+    color: #333;
+    pointer-events: none;
+}
+
+.back-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-link a {
+    color: #148BD1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenedor del ícono y texto */
+.icono-home {
+    max-width: 100px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+
+}
+
+.icono-home h1 {
+    margin: 0;
+    color: #148BD1;
+    margin-right: auto; /* Agregado para empujar la imagen hacia la derecha */
+}
+
+.icono-home img {
+    max-width: 200px;
+    height: auto;
+    margin-left: 30px; /* Agregado para separar la imagen del texto */
+    margin-top: 40px;
+}
+
+.icon-back {
+    position: absolute;
+    left: 3;
+}
+
+.icon-back a {
+    display: flex;
+    align-items: center;
+}
+
+.icon-back img {
+    max-width: 30px;
+    height: auto;
+}
+
+
