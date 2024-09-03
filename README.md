@@ -1,4 +1,5 @@
 # web_comercializadora_medicamentos
-Aplicativo creado en PHP que gestiona la compra venta de medicamentos.
-- Trabajo utilizando la POO y MySQL Server
-- Trabajo 7mo trimestre
+Aplicativo creado en PHP y MySQL Server.
+- El proyecto es un aplicativo que gestiona el suministro de medicamentos y el registro de clientes y vendedores.
+- Trabajo utilizando la POO
+- Trabajo 7mo trimestre.
